@@ -1,11 +1,19 @@
 class Main {
 
 	public static void main(String[] args) {
+		Human slava = null;
 
-		Human human = new Human();
-		human.age = 12;
-		human = null;
-		
+		slava = new Human();
+		System.out.println(slava.age);
+
+		slava.age = 12;
+		System.out.println(slava.age);
+
+		Human max = new Human();
+		max.age = 13;
+		max.name = "Max";
+		System.out.println(max.name);
+		System.out.println(max.age);
 	}
 
 }
