@@ -2,10 +2,8 @@ class Main {
 
 	public static void main(String[] args) {
 		Human slava = null;
-
 		slava = new Human();
 		System.out.println(slava.age);
-
 		slava.age = 12;
 		System.out.println(slava.age);
 
